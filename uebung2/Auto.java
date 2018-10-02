@@ -6,6 +6,7 @@ public class Auto {
 	private int AnzReifen;
 	public int AnzSitze;
 	private Studentin fahrer;
+	public static int anz;
 	
 	public Auto(double tempo, double tankinhalt, int AnzReifen, int AnzSitze) {
 		this.tempo = tempo;
@@ -14,6 +15,8 @@ public class Auto {
 		this.AnzSitze = AnzSitze;
 		
 	}
+	
+	
 	
 	public void setFahrer(Studentin f) {
 		this.fahrer = f;
