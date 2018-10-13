@@ -10,6 +10,11 @@ public class Main {
 		Stewardess s5 = new Stewardess();
 		Stewardess s6 = new Stewardess();
 		
+		s6.setName("Spears");
+		s6.setVorname("Britney");
+		
+		s6.sagHallo();
+		
 		f.addS(s1);
 		f.addS(s2);
 		f.addS(s3);
@@ -17,6 +22,8 @@ public class Main {
 		f.addS(s5);
 		f.addS(s6);
 		
+		
+
 		
 		
 	}
